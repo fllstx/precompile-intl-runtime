@@ -76,4 +76,5 @@ export interface ConfigureOptions {
   initialLocale?: string
   formats?: Partial<Formats>
   loadingDelay?: number
+  warnOnMissingMessages?: boolean
 }
